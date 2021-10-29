@@ -1,0 +1,36 @@
+*{
+    font-family: 'Exo', sans-serif;
+}
+.header-color{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+#header-container{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+.title-header{
+    font-size: 20px;
+    padding: 0.5em 0 0 1em;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.poster-title{
+    background-color: #457b9d;
+    border: 20px #457b9d;
+    color: #f1faee;
+    font-size: 50px;
+    padding: 0.5em;
+}
+.poster-text{
+    background-color: #457b9d;
+    border: 20px #457b9d;
+    color: #f1faee;
+    font-size: 20px;
+    padding: 0.5em;
+}
